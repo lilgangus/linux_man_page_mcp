@@ -2,3 +2,5 @@ data/__pycache__
 data/man_pages
 data/man_pages_temp*/
 .DS_STORE
+models/*
+parser/__pycache__
