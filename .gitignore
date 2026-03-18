@@ -1,7 +1,16 @@
-data/__pycache__
-data/man_pages
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data (too large / reproducible)
+data/man_pages/
 data/man_pages_temp*/
-.DS_STORE
-models/*
-parser/__pycache__
-__pycache__
+models/
+
+# Compiled binaries
+tests/shadow_runner
+evaluation/shadow_runner
+
+# OS
+.DS_Store
